@@ -109,6 +109,7 @@ tk.Entry(search_frame, textvariable=search_string_var).pack(side=tk.LEFT, padx=5
 fields_frame = tk.Frame(root, bg='#f0f0f0')
 fields_frame.pack(padx=10, pady=5)
 checkboxes = {}
+# Type in the strings to be searched in the JSON files that will output field information
 fields = ['tenant_name', 'appid_name', 'srcport', 'totalbytes', 'totalpackets', 'dstip', 'dstport', 'login_result', 'srcip_host', 'srcip_username',
           'dstip_geo', 'dstmac', 'dstip_host', 'duration', 'engid_name', 'event_name', 'fidelity', 'flow_score', 'srcip_geo', 'srcip_reputation',
           'dstip_reputation', 'xrd_event']
